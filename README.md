@@ -1,0 +1,3 @@
+# Incorrect Deep Object Comparison in PHP
+
+This repository demonstrates a common bug in recursive deep object comparison functions in PHP and provides a corrected version.  The original code fails to properly handle the comparison of scalar values that are strictly equal, resulting in incorrect results.  The solution addresses this flaw.  The demonstration includes unit tests showcasing both the buggy and corrected behavior.
